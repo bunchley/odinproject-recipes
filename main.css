@@ -45,8 +45,10 @@
 .recipe-grid-container {
   background-color: #d6e9fe;
   display: flex;
-  justify-content: center;
-  min-height: 80vh;
+  justify-content: flex-start;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 30px;
 }
 .recipe-grid {
   align-items: flex-start;
